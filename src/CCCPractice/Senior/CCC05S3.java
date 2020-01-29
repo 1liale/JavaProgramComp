@@ -1,8 +1,6 @@
 package CCCPractice.Senior;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 public class CCC05S3 {
@@ -91,20 +89,8 @@ public class CCC05S3 {
         return st.nextToken();
     }
 
-    static long readLong () throws IOException {
-        return Long.parseLong(next());
-    }
-
     static int readInt () throws IOException {
         return Integer.parseInt(next());
-    }
-
-    static double readDouble () throws IOException {
-        return Double.parseDouble(next());
-    }
-
-    static String readLine () throws IOException {
-        return br.readLine().trim();
     }
 
 }
